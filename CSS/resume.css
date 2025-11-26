@@ -1,0 +1,39 @@
+/* CSS for resume.html */
+body.resume h2 {
+  margin-top: 1em;
+  color: #004080;
+  border-bottom: 2px solid #dfe8ff;
+  padding-bottom: 0.25em;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px; width: 1px;
+  overflow: hidden;
+}
+
+/* two-column skills list on larger screens */
+.two-col {
+  columns: 2;
+  column-gap: 2rem;
+}
+@media (max-width: 700px) {
+  .two-col { columns: 1; }
+}
+
+/* make each job read like a card */
+main article {
+  background: #f7fbff;
+  border: 1px solid #e3eefc;
+  border-radius: 8px;
+  padding: 1em;
+  margin: 0.75em 0;
+}
+
+/* tighten list spacing inside cards */
+main article ul {
+  margin: 0.5em 0 0 1em;
+}

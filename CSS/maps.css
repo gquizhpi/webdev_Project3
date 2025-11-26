@@ -1,0 +1,32 @@
+/* Map container styling */
+.map-container {
+  width: 100%;
+  height: 400px;
+  border-radius: 10px;
+  border: 2px solid #004080;
+  margin-top: 1em;
+}
+
+/* Optional: make page readable */
+body.map-page main {
+  background: white;
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Optional: button styling */
+#question-btn {
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  padding: 0.75em 1em;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+#question-btn:hover {
+  background-color: #003366;
+}
+

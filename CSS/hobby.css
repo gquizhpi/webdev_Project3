@@ -1,0 +1,50 @@
+/* ===== Hobby page tweaks ===== */
+body.hobby header {
+  /* a subtle sport/sky feel */
+  background: linear-gradient(135deg, #004080, #0090ff);
+}
+
+body.hobby h2 {
+  color: #0057b8;
+  margin-top: 1em;
+  border-left: 4px solid #cfe6ff;
+  padding-left: 0.5em;
+}
+
+/* figure treatment for the photo */
+.climb-figure {
+  background: #f6fbff;
+  border: 1px solid #e3eefc;
+  border-radius: 10px;
+  padding: 0.75em;
+  max-width: 700px;
+  margin: 0 auto 1em;
+}
+.climb-figure figcaption {
+  text-align: center;
+  font-style: italic;
+  margin-top: 0.5em;
+  color: #335;
+}
+
+/* responsive video: keeps 16:9 without fixed size */
+.video-wrap {
+  max-width: 800px;
+  margin: 0 auto 1.5em;
+  aspect-ratio: 16 / 9;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.08);
+}
+.video-frame {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* readable paragraph width and comfortable spacing */
+body.hobby main p {
+  max-width: 70ch;
+  margin-left: auto;
+  margin-right: auto;
+}
